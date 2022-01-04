@@ -15,3 +15,6 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 Software Developer 👨‍💻  ●  Video Editor 🎬 🦚
+
+
+![image](https://user-images.githubusercontent.com/32341826/148130646-47545b74-186c-49c0-b2c0-cff39c7cb478.png)
