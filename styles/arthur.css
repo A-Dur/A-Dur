@@ -1,0 +1,414 @@
+.pb-box {
+    padding-bottom:10px;
+    width: 40px;
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 20px;
+}
+.pb {
+    border-radius: 50%;
+    width: 110px;
+}
+.info-name {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    display:flex;
+    justify-content: center;
+    padding-bottom:6px;
+}
+.info-bio {
+    font-family: Roboto;
+    padding-top: 9px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    padding-bottom:20px;
+}
+.info-bio-text {
+    display: flex;
+    align-items: center;
+}
+.ppmEa {
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.ppmEa:link {
+    color: white;
+    text-decoration: none;
+}
+.ppmEa:hover{
+    text-decoration: underline;
+    color:white;
+}
+.ppmEa:visited {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+.social-link-box {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 15px;
+    height: 80px;
+    width: 100%;
+    padding-bottom: 80px;
+}
+.social-link {
+    display: flex;
+    height: 50px;
+    transition: 0.15s;
+}
+.social-link:hover {
+    height: 60px;
+}
+.social-link:active {
+    height: 45px;
+}
+.other-stuff-button-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom:120px;
+}
+.other-stuff-button-list button {
+    font-size: 15px;
+    height: 50px;
+    background-color: rgb(43, 43, 43);
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: gray;
+    border-style: solid;
+    color: white;
+    cursor: pointer;
+}
+.other-stuff-button-list .fa-button-icon {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 5px;
+    padding-left: 2px;
+    font-size: 40px;
+}
+.other-stuff-button-list .fa-icon-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+.other-stuff-button-list .non-fa-icon-text {
+    padding-left: 56px;
+}
+.other-stuff-button-list .non-fa-icon-text:hover, 
+.other-stuff-button-list .fa-icon-text:hover {
+    color: black;
+}
+.other-stuff-button-list button:hover,
+.other-stuff-button-list .button-text:hover {
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    border:none;
+    border-radius: 8px;
+}
+.other-stuff-button-list button:active {
+    background-color: rgb(226, 222, 222);
+    color: black;
+    font-size: 16px;
+    border: none;
+    border-radius: 7px;
+}
+
+.other-stuff-button-list button,
+.other-stuff-button-list .button-text {
+    transition: 0.15s;
+}
+.other-stuff-button-list .button-text {
+    position: relative;
+}
+.other-stuff-button-list .ad-msg {
+    position: absolute;
+    background-color: rgb(43, 43, 43);
+    border-width: 2px;
+    border-color: gray;
+    border-radius: 3px;
+    border-style: solid;
+    font-size: 15px;
+    padding: 2px 10px 2px 10px;
+    top: -20px;
+    right: -20px;
+    color: white;
+    cursor: pointer;
+}
+.other-stuff-button-list .button-icon {
+    position: absolute;
+    left: 4px;
+    top:1px;
+    transition: 0.15s;
+    border: 4px solid rgb(43, 43, 43);
+}
+.other-stuff-button-list img {
+    width: 40px;
+    border-radius: 50%;
+}
+.fraenk-button-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.spotify-button-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.icon-bg {
+    background-color: rgb(43, 43, 43);
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    position: absolute;
+    left: 11px;
+    top: 6px;
+}
+div, p {
+    color: white;
+    font-family: Roboto, Arial;
+}
+
+
+.projectpavo-box {
+    visibility: hidden;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    font-size: 100%;
+    justify-content: center;
+    gap: 14px;
+}
+.projectpavo-logo {
+    border-radius: 50%;
+    height: 40px;
+    display: flex;
+}
+.projectpavo-name {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+@media (pointer:none), (pointer:coarse) 
+and (orientation: portrait){
+    .pb-box {
+        padding-bottom:20px;
+        width: 80px;
+        display:flex;
+        width: 100%;
+        justify-content: center;
+        padding-top: 3%;
+        padding-bottom: 40px;
+    }
+    .pb {
+        border-radius: 50%;
+        width: 220px;
+    }
+    .info-name {
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 40px;
+        display:flex;
+        justify-content: center;
+        padding-bottom:12px;
+    }
+    .info-bio {
+        font-family: Roboto;
+        padding-top: 18px;
+        display: flex;
+        justify-content: center;
+        font-size: 32px;
+        padding-bottom:40px;
+    }
+    .info-bio-text {
+        display: flex;
+        align-items: center;
+    }
+    .ppmEa {
+        color:white;
+        text-decoration: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+    }
+    .ppmEa:link {
+        color:white;
+        text-decoration: none;
+    }
+    .ppmEa:hover{
+        text-decoration: underline;
+        color:white;
+    }
+    .ppmEa:visited {
+        color:rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    .social-link-box {
+        display: flex;
+        justify-content:center;
+        gap:30px;
+        height: 100px;
+        width: 100%;
+        padding: 0 0 160px 0;
+    }
+    .social-link {
+        height: 100px;
+    }
+    .social-link:hover {
+        height: 120px;
+    }
+    .social-link:active {
+        height: 90px;
+    }
+    .other-stuff-button-list {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+        margin-bottom:240px;
+    }
+    .other-stuff-button-list button {
+        font-size: 34px;
+        height: 130px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: rgb(43, 43, 43);
+        border-width: 2px;
+        border-radius: 10px;
+        border-color: gray;
+        border-style: solid;
+        color: white;
+        cursor: pointer;
+    }
+    .other-stuff-button-list .fa-button-icon {
+        display: inline-block;
+        vertical-align: middle;
+        padding-right: 10px;
+        padding-left: 4px;
+        font-size: 80px;
+    }
+    .other-stuff-button-list .fa-icon-text {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .other-stuff-button-list .non-fa-icon-text {
+        padding-left: 112px;
+    }
+    .other-stuff-button-list .non-fa-icon-text:hover, 
+    .other-stuff-button-list .fa-icon-text:hover {
+        color: black;
+    }
+    .other-stuff-button-list button:hover {
+        background-color: white;
+        color: black;
+        font-size: 34px;
+        border:none;
+        border-radius: 16px;
+    }
+    .other-stuff-button-list button:active {
+        background-color: rgb(226, 222, 222);
+        color: black;
+        font-size: 32px;
+        border: none;
+        border-radius: 14px;
+    }
+    
+    .other-stuff-button-list button,
+    .other-stuff-button-list .button-text {
+        transition: 0.15s;
+    }
+    .other-stuff-button-list .button-text {
+        position: relative;
+    }
+    .other-stuff-button-list .button-icon {
+        position: absolute;
+        left: 8px;
+        top:15px;
+        transition: 0.15s;
+        border: 8px solid rgb(43, 43, 43);
+    }
+    .other-stuff-button-list img {
+        width: 80px;
+        border-radius: 50%;
+    }
+    .other-stuff-button-list .ad-msg {
+        position: absolute;
+        background-color: rgb(43, 43, 43);
+        border-width: 4px;
+        border-color: gray;
+        border-radius: 6px;
+        border-style: solid;
+        padding: 4px 20px 4px 20px;
+        font-size: 30px;
+        top: -40px;
+        right: -40px;
+        color: white;
+        cursor: pointer;
+    }
+    .fraenk-button-container {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .spotify-button-container {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .icon-bg {
+        background-color: rgb(43, 43, 43);
+        height: 76px;
+        width: 76px;
+        border-radius: 50%;
+        position: absolute;
+        left: 22px;
+        top: 12px;
+    }
+    div, p {
+        color: white;
+        font-family: Roboto, Arial;
+    }
+    
+    
+    .projectpavo-box {
+        height: 80px;
+        width: 100%;
+        display: flex;
+        font-size: 100%;
+        justify-content: center;
+        gap: 34px;
+    }
+    .projectpavo-logo {
+        border-radius: 50%;
+        height: 80px;
+        display: flex;
+    }
+    .projectpavo-name {
+        font-size: 60px;
+        display: flex;
+        align-items: center;
+    }
+}
+.ad-pg {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.unselectable-things {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
