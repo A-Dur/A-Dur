@@ -342,12 +342,18 @@ and (orientation: portrait){
     .other-stuff-button-list .button-text {
         position: relative;
     }
-    .other-stuff-button-list .button-icon {
+    .other-stuff-button-list .fraenk-button-icon {
         position: absolute;
         left: 8px;
         top:15px;
         transition: 0.15s;
         border: 8px solid rgb(43, 43, 43);
+    }
+    .other-stuff-button-list .button-icon {
+        position: absolute;
+        left: 16px;
+        top: 23px;
+        transition: 0.15s;
     }
     .other-stuff-button-list img {
         width: 80px;
