@@ -219,8 +219,7 @@ div, p {
     display: flex;
     align-items: center;
 }
-@media (pointer:none), (pointer:coarse) 
-and (orientation: portrait){
+@media only screen and (max-width : 1000px){
     .pb-box {
         padding-bottom:20px;
         width: 80px;
