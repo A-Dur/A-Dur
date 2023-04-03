@@ -89,6 +89,11 @@
     color: white;
     cursor: pointer;
 }
+.spotify-button-container .fa-icon-text:hover .fa-button-icon {
+    transition: 0.15s;
+    color:white;
+    filter: invert(49%) sepia(89%) saturate(450%) hue-rotate(88deg) brightness(100%) contrast(85%);
+}
 .other-stuff-button-list .fa-button-icon {
     display: inline-block;
     vertical-align: middle;
@@ -152,11 +157,15 @@
     border: 4px solid rgb(43, 43, 43);
     border-radius: 50%;
 }
-.other-stuff-button-list .button-icon {
+.other-stuff-button-list .arc-button-icon {
     position: absolute;
     left: 10px;
     top:7px;
+    filter: grayscale(100%);
     transition: 0.15s;
+}
+.other-stuff-button-list .non-fa-icon-text:hover .arc-button-icon{
+    filter: grayscale(0%);
 }
 .other-stuff-button-list img {
     width: 40px;
