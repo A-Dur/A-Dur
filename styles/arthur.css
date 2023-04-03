@@ -359,10 +359,10 @@ and (orientation: portrait){
         border: 8px solid rgb(43, 43, 43);
         border-radius: 50%;
     }
-    .other-stuff-button-list .button-icon {
+    .other-stuff-button-list .arc-button-icon {
         position: absolute;
         left: 16px;
-        top: 23px;
+        top: 26px;
         transition: 0.15s;
     }
     .other-stuff-button-list img {
