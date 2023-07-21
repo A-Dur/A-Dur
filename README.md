@@ -1,4 +1,4 @@
-# Arthur Harder 🦚
+# Arthur 🦚
 
 <!--
 **A-Dur/A-Dur** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-Software Developer 👨‍💻  ●  Video Editor 🎬 🦚
+Student &nbsp;●&nbsp; Software Developer 👨‍💻 
 
 
 ![image](https://user-images.githubusercontent.com/32341826/148130646-47545b74-186c-49c0-b2c0-cff39c7cb478.png)
